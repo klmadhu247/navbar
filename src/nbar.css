@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navBar
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(247, 245, 245);
+   
+}
+
+.image_log
+{
+    width: 160px;
+    height: 60px;
+}
+
+.list_Items
+{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 10px;
+    justify-content: space-between;
+    text-align: center;
+   text-decoration-line: none;
+}
+
+.list_Items a
+{
+    text-decoration-line: none;
+    font-weight: 500px;
+    color: rgb(9, 134, 156);
+}
+.social-logo
+{
+    display: inline-block;
+    text-decoration-line: none;
+    list-style-type: none;
+    padding: 0 10px;
+    color: rgb(9, 134, 156);
+}
+.fab{
+    color: rgb(9, 134, 156);
+}
+.list_Items a:hover
+{
+    color: blueviolet;
+    text-shadow:  1px 2px 4px;
+
+}
+.fab:hover{
+    color: blueviolet;
+    text-shadow:  1px 2px 4px;
+
+}
+
+
+
+.menu-iconn
+{
+    display: none;
+}
+.menu-iconn .fa-times
+{
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out;
+}
+.menu-iconn .fa-bars
+{
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 600px)
+{
+    .menu-iconn{
+        display: block;
+        position: absolute;
+        right:20px;
+        top: 20px;
+    }
+
+    .navBar{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .nav__items
+    {
+        flex-direction: column;
+    }
+    .list_Items
+    {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .social-logo
+    {
+        display: block;
+        padding: 10px 0;
+    }
+    .list_Items a 
+    {
+        flex-direction: column;
+    }
+    .social-logo a i
+{
+    flex-direction: column;
+    color: rgb(9, 134, 156);;
+}
+
+.soci {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    align-content: center;
+}
+.fab{
+    flex-direction: column;
+}
+.social-logo a i 
+{
+    flex-direction: column;
+}
+
+ul
+{
+    display: none;
+}
+.social
+{
+    display: none;
+}
+.menulist-closed
+{
+    right: -100%;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+}
+    
+
