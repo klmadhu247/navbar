@@ -1,0 +1,139 @@
+
+.container__navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    top:0;
+    box-shadow: 0 0 5px;
+    border-start-end-radius: 5px;
+    width: 100%;
+    position: relative;
+
+}
+.nav_logo
+{
+
+    width: 150px;
+   
+}
+.nav__list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list ul li
+{
+    display: inline;
+    list-style-type: none;
+    font-weight: 300px;
+    padding: 0 10px;
+    margin-left: 20px;
+    color: rgb(50, 77, 103);
+    font-weight: 500;
+}
+
+.social
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+
+
+.nav__list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.social__logo
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 1px;
+    margin: 0;
+   
+
+}
+
+.social__logo a
+{
+    padding: 5px 0;
+    margin-right: 20px;
+}
+.social li a
+{
+    color: #0095ff;
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+@media  screen and (max-width:800px)
+{
+    .nav_logo
+{
+    width: 100px;
+}
+.nav__list ul li 
+{
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.social ul li a
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+}
+
+@media  screen and (max-width:600px)
+{
+
+    .menu-icon {
+        display: block;
+    }
+
+
+.nav__list
+{
+    flex-direction: column;
+    width:100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: white; 
+    padding: 20px;
+    right: 0;
+    top:64px
+
+
+}
+
+.social
+{
+    flex-direction: column;
+    width:100%;
+    position: absolute;
+    top:70px;
+    left: 0;
+        background-color: white; 
+
+}
+
+}
+
+
+   
